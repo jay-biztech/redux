@@ -27,3 +27,8 @@ Reducer: Ties the store and actions together, State transition depending on the 
 - Allow state to be updated via dispatch(action)
 - Registers listeners via subscribe(listener)
 - Handles unregistering of listeners via the function returned by subscribe(listener) 
+
+### Redux thunk:
+- For action creator to return a function instead of action.
+- It is used to perform async tasks.
+- It is also dispatch regular actions.
